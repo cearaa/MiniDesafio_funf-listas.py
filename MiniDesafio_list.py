@@ -8,7 +8,7 @@ nome = input("Digite seu nome: ")
 pontuacoes = []
 
 #leitura das 6 pontuações
-for i in range(6):
+for i in range(0, 6):
     ponto = float(input(f"Digite o valor da ação {i + 1}: "))
     pontuacoes.append(ponto)
 #total
