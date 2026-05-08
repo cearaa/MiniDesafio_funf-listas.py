@@ -1,6 +1,9 @@
-#Mini Desafio de Python para amanhã
+#Mini Desafio Complementar do CP
+#Membros do grupo:
+#Tárik Moussa Alma - RM: 571411
+#Fabrício Aquiles - RM: 570985
 
-
+print("------------------------ Menu ------------------------")
 #nome do usuário
 nome = input("Digite seu nome: ")
 
@@ -32,4 +35,5 @@ print(f"Média: {media:.2f}")
 print(f"Ações com pontuação maior ou igual a 80: {quantidade_destaques}")
 
 #mensagem final personalizada
-print(f"\nParabéns, {nome}! Continue praticando ações sustentáveis e contribuindo com o planeta!! Vê se não usa canudo, as tartarugas também são importantes...!")
+print(f"\nParabéns, {nome}! Você acumulou {total} pontos. Sua média foi {media:.2f} e teve {quantidade_destaques} ações de destaque.")
+print("\nContinue praticando ações sustentáveis e contribuindo com o planeta!! Vê se não usa canudo, as tartarugas também são importantes...!")
