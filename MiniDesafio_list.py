@@ -20,7 +20,7 @@ for valor in pontuacoes:
     if valor >= 80:
         quantidade_destaques += 1
 
-#resultados
+#resultados########
 print("\n----------------------- RESULTADO --------------------")
 print(f"Usuário: {nome}")
 print(f"Pontuações: {pontuacoes}")
